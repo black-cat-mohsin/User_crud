@@ -2,4 +2,55 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.loginContainer__title {
+  width: 80%;
+  height: 50px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.loginContainer__inputFields {
+  width: 60%;
+  /* height: 60%; */
+  /* background-color: green; */
+}
+
+.loginContainer__loginBtn_div {
+  width: 60%;
+  height: 150px;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.loginContainer__loginBtn_div .btn {
+  width: 100%;
+  height: 45px;
+  background: linear-gradient(to right, #553171, #a15dd7);
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+.navigate_to_sign_up {
+  font-size: 16px;
+}
+.navigate_to_sign_up button {
+  color: #553171;
+  font-size: 16px;
+  border: none;
+  background: none;
+  background-color: transparent; /* just to be extra safe */
+  cursor: pointer;
 }
