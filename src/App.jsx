@@ -1,11 +1,17 @@
-import { useState } from "react";
+import AuthLayout from "./layouts/auth-layout";
 import Login from "./pages/login-page";
-import SignUp from "./pages/signup-page";
+import SignUp from "./pages/signup-page/SignUp";
+
 function App() {
   return (
     <>
-      <Login />
-      <SignUp />
+      <AuthLayout>
+        <Login />
+      </AuthLayout>
+
+      <AuthLayout>
+        <SignUp />
+      </AuthLayout>
     </>
   );
 }
