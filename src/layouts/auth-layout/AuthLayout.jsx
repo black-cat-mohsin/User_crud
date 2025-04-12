@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router";
 import styles from "./AuthLayout.module.css";
 
 export default function AuthLayout({ children }) {
@@ -10,7 +11,9 @@ export default function AuthLayout({ children }) {
             Let's discuss on something cool together!!!
           </div>
         </div>
-        <div className={styles.authContainer__right}>{children}</div>
+        <div className={styles.authContainer__right}>
+          <Outlet />
+        </div>
       </div>
     </div>
   );

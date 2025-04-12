@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./SignUp.module.css";
 import BasicInput from "../../components/input-fields/BasicInput";
+import { Link } from "react-router";
 
 export default function SignUp() {
   return (
@@ -28,7 +29,10 @@ export default function SignUp() {
         <div className={styles.container__signUpBtn_div}>
           <button className={styles.btn}>CREATE</button>
           <div className={styles.navigate_to_login}>
-            Already have an account? <button>Login</button>
+            Already have an account?
+            <Link to="/login" className={styles.link}>
+              Login
+            </Link>
           </div>
         </div>
       </div>

@@ -46,11 +46,14 @@
 .navigate_to_sign_up {
   font-size: 16px;
 }
-.navigate_to_sign_up button {
+
+.link {
   color: #553171;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   background: none;
   background-color: transparent; /* just to be extra safe */
   cursor: pointer;
+  text-decoration: none;
+  margin-left: 5px;
 }
