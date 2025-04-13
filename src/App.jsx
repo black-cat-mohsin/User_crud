@@ -3,6 +3,7 @@ import AuthLayout from "./layouts/auth-layout";
 import Login from "./pages/login-page";
 import SignUp from "./pages/signup-page/SignUp";
 import MainLayout from "./layouts/main-layout";
+import Dashboard from "./pages/dashboard";
 function App() {
   return (
     <BrowserRouter>
@@ -11,7 +12,9 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />
         </Route>
-        <Route path="/" element={<MainLayout />} />
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Dashboard />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

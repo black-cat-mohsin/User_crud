@@ -80,3 +80,7 @@ my-react-app/
 │── .env  
 │── package.json  
 │── vite.config.js
+
+## External library
+
+For Icon: Using "https://lucide.dev/"
