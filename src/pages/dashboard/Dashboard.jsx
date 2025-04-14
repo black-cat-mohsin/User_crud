@@ -10,6 +10,8 @@ export default function Dashboard() {
       </div>
       <div className={styles.card_container}>
         <Card name="Mohsin Al- Mamun" designation="Software Developer" />
+        <Card name="Mohsin Al- Mamun" designation="Software Developer" />
+        <Card name="Mohsin Al- Mamun" designation="Software Developer" />
         {/* <Card name="Mohsin Al- Mamun" designation="Software Developer" />
         <Card name="Mohsin Al- Mamun" designation="Software Developer" /> */}
       </div>
